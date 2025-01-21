@@ -27,7 +27,9 @@ public class UserServiceImpl implements UserService {
     @Override
     public void createOrUpdateUser(UserDto userDto) {
         User user = mapDtoToUser(userDto);
-        userRepository.save(user);
+        if (null == user.getId() || userRepository.findById(user.getId()).isPresent()) {
+            userRepository.save(user);
+        }
     }
 
     @Override
