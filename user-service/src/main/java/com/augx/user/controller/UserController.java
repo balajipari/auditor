@@ -1,7 +1,7 @@
-package com.augx.auditor.controller;
+package src.main.java.com.augx.user.controller;
 
 import com.augx.auditor.model.dto.UserDto;
-import com.augx.auditor.service.UserService;
+import src.main.java.com.augx.user.service.UserService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

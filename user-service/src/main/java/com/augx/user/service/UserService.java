@@ -1,4 +1,4 @@
-package com.augx.auditor.service;
+package src.main.java.com.augx.user.service;
 
 import com.augx.auditor.model.dto.UserDto;
 import jakarta.persistence.Id;

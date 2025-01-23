@@ -1,9 +1,9 @@
-package com.augx.auditor.service.impl;
+package src.main.java.com.augx.user.service.impl;
 
 import com.augx.auditor.model.User;
 import com.augx.auditor.model.dto.UserDto;
 import com.augx.auditor.repository.UserRepository;
-import com.augx.auditor.service.UserService;
+import src.main.java.com.augx.user.service.UserService;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.TypeToken;
 import org.modelmapper.convention.MatchingStrategies;
